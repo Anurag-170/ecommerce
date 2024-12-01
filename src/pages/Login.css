@@ -1,0 +1,69 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f4;
+  }
+  
+  .login-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .amazon-logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form-container {
+    text-align: left;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .signin-button {
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    color: #111;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: #f7ca88;
+  }
+  
+  .create-account-button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #111;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .create-account-button:hover {
+    border-color: #c45500;
+  }
+  

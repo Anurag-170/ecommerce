@@ -1,0 +1,23 @@
+/* src/Payslip.css */
+.payslip-container {
+  max-width: 600px;
+  height:300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.payslip-details {
+  line-height: 1.8;
+}
+
+.payslip-details p {
+  margin: 10px 0;
+}
+
+.payslip-details strong {
+  display: inline-block;
+  width: 150px;
+}

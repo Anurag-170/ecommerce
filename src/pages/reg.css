@@ -1,0 +1,75 @@
+/* Registration.css */
+/* App.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-content {
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.amazon-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.login-form-container {
+  text-align: left;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.signin-button {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signin-button:hover {
+  background-color: #e68a00;
+}
+
+hr {
+  margin-top: 20px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

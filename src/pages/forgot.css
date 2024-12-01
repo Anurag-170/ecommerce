@@ -1,0 +1,46 @@
+/* UpdatePassword.css */
+.login-box {
+  margin: 0 auto;
+  max-width: 400px;
+  padding-top: 50px;
+}
+
+.login-logo {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-control {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.input-group-text {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+}
+
+.btn-primary {
+  background-color: #ff9900;
+  border-color: #ff9900;
+}
+
+.btn-primary:hover {
+  background-color:#e68a00;
+  border-color: #ff9900;
+}
+
+.alert {
+  margin-top: 10px;
+}
+
